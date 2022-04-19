@@ -374,6 +374,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/power-libperfmgr/sdm660_powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 endif
 
+PRODUCT_PACKAGES += \
+    PixelLauncherRelease \
+    PixelThemedIconsOverlay
+
+PRODUCT_PACKAGES += \
+    Drive \
+    Maps \
+    PrebuiltGmail
+
 # Public Libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
@@ -408,6 +417,10 @@ PRODUCT_PACKAGES += \
 # Recovery
 PRODUCT_PACKAGES += \
     librecovery_updater_asus
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # Ramdisk
 PRODUCT_PACKAGES += \

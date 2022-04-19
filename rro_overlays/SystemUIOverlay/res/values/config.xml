@@ -61,4 +61,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          Leave 1 if you have mA, put 1000 if you have µA-->
     <integer name="config_battCurrentDivider" translatable="false">1000</integer>
 
+    <!-- The default tiles to display in QuickSettings -->
+    <string name="quick_settings_tiles_default" translatable="false">
+        wifi,cell,bt,flashlight,sound,reboot,location,hotspot,screenrecord,cast,caffeine,airplane,battery,night,reduce_brightness,dark,dataswitch,dnd,rotation,compass,cpuinfo,onthego
+    </string>
+
 </resources>
