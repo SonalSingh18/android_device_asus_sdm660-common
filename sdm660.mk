@@ -200,6 +200,10 @@ PRODUCT_PACKAGES += \
     sap.conf \
     xtwifi.conf
 
+# Google Battery HAL
+PRODUCT_PACKAGES += \
+    vendor.google.google_battery@1.1
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
