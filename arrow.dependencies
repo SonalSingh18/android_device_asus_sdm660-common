@@ -1,7 +1,9 @@
 [
   {
-    "repository":  "android_kernel_asus_X01BD",
-    "target_path": "kernel/asus/sdm660"
+    "remote": "github",
+    "repository":  "SonalSingh18/android_kernel_asus_sdm660",
+    "target_path": "kernel/asus/sdm660",
+    "branch": "arrow-13.0"
   },
   {
     "remote": "github",
